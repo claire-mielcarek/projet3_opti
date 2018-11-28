@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ComputeDebits</string>
+    <string name="button_compute">Compute a debit</string>
+    <string name="button_see">See the 200 first results</string>
+
+    <string name="debit">What\'s the received debit ?</string>
+    <string name="debit_placeholder">Enter here the debit to distribute</string>
+    <string name="checkbox_debit">Disponible turbines</string>
+    <string name="debit_max">Maximum debit of the turbine (default is 160 m3/s)</string>
+
+    <string name="turbine1">Turbine 1</string>
+    <string name="turbine2">Turbine 2</string>
+    <string name="turbine3">Turbine 3</string>
+    <string name="turbine4">Turbine 4</string>
+    <string name="turbine5">Turbine 5</string>
+
+    <string name="new_debitMax">Enter here your debit</string>
+    <string name="compute_debit">Get the optimal distribution of debits</string>
+
+</resources>
