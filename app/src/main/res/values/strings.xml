@@ -5,6 +5,8 @@
 
     <string name="debit">What\'s the received debit ?</string>
     <string name="debit_placeholder">Enter here the debit to distribute</string>
+    <string name="upElevation">What\'s the up elevation ?</string>
+    <string name="elevation_placeholder">Enter here the current up elevation</string>
     <string name="checkbox_debit">Disponible turbines</string>
     <string name="debit_max">Maximum debit of the turbine (default is 160 m3/s)</string>
 

@@ -25,6 +25,24 @@
                 android:id="@+id/debitMax"/>
         </LinearLayout>
 
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upElevation"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/elevation_placeholder"
+                android:id="@+id/upElevation"/>
+        </LinearLayout>
+
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,7 +73,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/new_debitMax"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:id="@+id/turbine1_debit"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,7 +86,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/new_debitMax"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:id="@+id/turbine2_debit"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,7 +99,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/new_debitMax"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:id="@+id/turbine3_debit"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -91,7 +112,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/new_debitMax"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:id="@+id/turbine4_debit"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -104,7 +126,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/new_debitMax"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:id="@+id/turbine5_debit"/>
 
         </GridLayout>
 
