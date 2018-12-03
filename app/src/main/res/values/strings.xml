@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ComputeDebits</string>
+    <string name="app_name">Flow devider</string>
     <string name="button_compute">Compute a debit</string>
     <string name="button_see">See the 200 first results</string>
 
@@ -8,7 +8,16 @@
     <string name="upElevation">What\'s the up elevation ?</string>
     <string name="elevation_placeholder">Enter here the current up elevation</string>
     <string name="checkbox_debit">Disponible turbines</string>
-    <string name="debit_max">Maximum debit of the turbine (default is 160 m3/s)</string>
+    <string name="debit_max">Maximum debit of the turbine (default is 160 m³/s)</string>
+
+    <string name="debit_presentation">To have the best poductivity, you have to distribute the available debit this way : </string>
+    <string name="debit_results">With this repartition, you will obtain a production of :</string>
+
+    <string name="result_title">Repartition of the debits</string>
+    <string name="see_title">Past results</string>
+    <string name="compute_title">Characteristics of the problem</string>
+
+    <string name="error_message">Received debit and up elevation can\'t be null</string>
 
     <string name="turbine1">Turbine 1</string>
     <string name="turbine2">Turbine 2</string>
