@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,7 +14,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.lang.reflect.Array;
+import com.example.clair.computedebits.debitDevider.PowerPlant;
+
 import java.util.ArrayList;
 
 public class ComputeActivity extends AppCompatActivity {

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.clair.computedebits;
+package com.example.clair.computedebits.debitDevider;
 
 import static java.lang.System.currentTimeMillis;
 import java.util.ArrayList;

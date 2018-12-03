@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.clair.computedebits;
+package com.example.clair.computedebits.debitDevider;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,9 +17,6 @@ import java.util.ArrayList;
  */
 public class GetDataCSV {
 
-    /**
-     * @param args the command line arguments
-     */
     public ArrayList<ArrayList<Integer>> GetDataCSV () {
         // TODO code application logic here
 
