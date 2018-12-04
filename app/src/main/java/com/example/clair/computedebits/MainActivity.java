@@ -4,8 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
+
 import com.example.clair.computedebits.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), ComputeActivity.class);
                 startActivity(i);
+            }
+        });
+
+        ImageView info = findViewById(R.id.info);
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), Html.fromHtml(getApplicationContext().getResources().getString(R.string.credit_message)),Toast.LENGTH_LONG).show();
             }
         });
     }

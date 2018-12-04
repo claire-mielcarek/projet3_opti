@@ -18,6 +18,13 @@
     <string name="compute_title">Characteristics of the problem</string>
 
     <string name="error_message">Received debit and up elevation can\'t be null</string>
+    <string name="credit_message">
+        <![CDATA[<div>This app\'s logo was made by
+        <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>]]>
+    </string>
 
     <string name="turbine1">Turbine 1</string>
     <string name="turbine2">Turbine 2</string>
