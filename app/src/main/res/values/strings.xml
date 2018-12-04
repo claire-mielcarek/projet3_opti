@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Flow devider</string>
+    <string name="app_name">Flow Devider</string>
     <string name="button_compute">Compute a debit</string>
     <string name="button_see">See the 200 first results</string>
 
@@ -27,5 +27,9 @@
 
     <string name="new_debitMax">Enter here your debit</string>
     <string name="compute_debit">Get the optimal distribution of debits</string>
+
+    <string name="see_num_line">Line</string>
+    <string name="see_qtot">Débit total (m³/s)</string>
+    <string name="see_up_elev">Elevation Amont (m)</string>
 
 </resources>
