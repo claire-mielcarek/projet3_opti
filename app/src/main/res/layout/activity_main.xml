@@ -43,6 +43,13 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/button_graphic"
+                android:id="@+id/button_graphic"
+                style="@style/DefaultButton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/button_see"
                 android:id="@+id/button_see"
                 style="@style/DefaultButton"/>

@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Flow Devider</string>
     <string name="button_compute">Compute a debit</string>
-    <string name="button_see">See the 200 first results</string>
+    <string name="button_see">See the 20 first numerical results</string>
+    <string name="button_graphic">See the 20 first results\' graphic</string>
 
     <string name="debit">What\'s the received debit ?</string>
     <string name="debit_placeholder">Enter here the debit to distribute</string>

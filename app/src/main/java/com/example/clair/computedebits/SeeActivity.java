@@ -102,7 +102,7 @@ public class SeeActivity extends AppCompatActivity {
             int lineIndice = 1;
             try {
                 line = reader.readLine();
-                while (line != null) {
+                while (lineIndice <= 20) {
 
                     currentMaxDebits = new ArrayList<>();
                     currentRepartitionDebits = new ArrayList<>();
