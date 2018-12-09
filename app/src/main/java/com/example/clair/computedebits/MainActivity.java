@@ -30,6 +30,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button buttonGraph = findViewById(R.id.button_graphic);
+        buttonGraph.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), GraphicActivity.class);
+                startActivity(i);
+            }
+        });
+
         Button buttonCompute = findViewById(R.id.button_compute);
         buttonCompute.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
 
         ImageView info = findViewById(R.id.info);
         info.setOnClickListener(new View.OnClickListener() {
